@@ -1,0 +1,85 @@
+body,
+html {
+    background-color: #1e1e2f;
+    height: 100%;
+    overflow: hidden;
+}
+
+.logo {
+    width:170px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    margin-bottom: 20px;
+}
+
+#username {
+    padding-left: 35px;
+    background: url("./assets/perfil3.png") no-repeat left;
+    background-size: 20px;
+    background-color: #181825;
+    background-position: 10px;
+}
+
+#password {
+    padding-left: 35px;
+    background: url("./assets/lock2.png") no-repeat left;
+    background-size: 20px;
+    background-color: #181825;
+    background-position: 10px;
+}
+
+.input-form {
+    border-radius: 18px;
+    background-color: #181825;
+    padding: 14px;
+    border: none;
+}
+
+#remember-check label {
+    color: #fff;
+    font-family: arial;
+}
+
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: #27293d;
+    border-radius: 50%;
+    vertical-align: middle;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background-color: gray;
+}
+
+#sign-in {
+    margin-top: 20px;
+    border-radius: 25px;
+    width: 100%;
+    padding: 20px;
+    background: rgb(0, 182, 146);
+    background: linear-gradient(90deg, rgba(0, 182, 146, 1) 0%, rgba(2, 130, 178, 1) 35%, rgba(3, 85, 206, 1) 100%);
+    border: none;
+    color: #fff;
+}
+
+footer {
+    color: #404863;
+    position: fixed;
+    bottom: 10px;
+    font-family: arial;
+    font-size: 12px;
+}
